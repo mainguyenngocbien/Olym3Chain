@@ -118,7 +118,7 @@ npm run recovery:selective 0x123...,0x456...
 ```json
 {
   "network": "localhost",
-  "chainId": 31337,
+  "chainId": 256000,
   "backupInterval": 300000,
   "maxBackupAge": 604800000,
   "maxBackupFiles": 100,
@@ -141,7 +141,7 @@ npm run recovery:selective 0x123...,0x456...
 ```typescript
 import { TransactionBackupManager } from "./scripts/backupTransactionLogs";
 
-const backupManager = new TransactionBackupManager("localhost", 31337);
+const backupManager = new TransactionBackupManager("localhost", 256000);
 await backupManager.backupTransactions(1000, 2000);
 ```
 
@@ -152,7 +152,7 @@ import { NetworkRecoveryManager } from "./scripts/networkRecovery";
 
 const recoveryManager = new NetworkRecoveryManager({
   network: "localhost",
-  chainId: 31337,
+  chainId: 256000,
   recoveryMode: "selective",
   targetAddresses: ["0x123...", "0x456..."],
   enableStateReconstruction: true

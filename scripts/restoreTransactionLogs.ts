@@ -242,7 +242,7 @@ class TransactionRestoreManager {
 // Main function
 async function main() {
   const network = process.env.HARDHAT_NETWORK || "localhost";
-  const chainId = network === "localhost" ? 31337 : 256000;
+  const chainId = 256000; // All networks now use Olym3 chain ID
   
   const restoreManager = new TransactionRestoreManager(network, chainId);
   

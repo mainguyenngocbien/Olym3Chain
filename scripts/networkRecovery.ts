@@ -395,7 +395,7 @@ async function main() {
   
   const config: RecoveryConfig = {
     network: process.env.HARDHAT_NETWORK || "localhost",
-    chainId: process.env.HARDHAT_NETWORK === "localhost" ? 31337 : 256000,
+          chainId: 256000, // All networks now use Olym3 chain ID
     recoveryMode: command as "full" | "incremental" | "selective",
     startBlock: args[1] ? parseInt(args[1]) : undefined,
     endBlock: args[2] ? parseInt(args[2]) : undefined,

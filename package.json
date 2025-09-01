@@ -48,8 +48,7 @@
     "distribute:genesis-tokens": "hardhat run scripts/distributeGenesisTokens.ts",
     "check:genesis-balances": "hardhat run scripts/checkGenesisBalances.ts",
     "check:olym3-connection": "hardhat run scripts/checkOlym3Connection.ts",
-    "test:olym3-rpc": "npx ts-node scripts/testOlym3Rpc.ts",
-    "check:chain-id": "npx ts-node scripts/checkChainIdUpgrade.ts"
+    "test:olym3-rpc": "npx ts-node scripts/testOlym3Rpc.ts"
   },
   "dependencies": {
     "@inquirer/password": "^4.0.2",

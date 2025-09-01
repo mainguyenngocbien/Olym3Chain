@@ -191,7 +191,7 @@ class AutoBackupMonitor {
 // Configuration mặc định
 const defaultConfig: MonitorConfig = {
   network: process.env.HARDHAT_NETWORK || "localhost",
-  chainId: process.env.HARDHAT_NETWORK === "localhost" ? 31337 : 256000,
+        chainId: 256000, // All networks now use Olym3 chain ID
   backupInterval: 5 * 60 * 1000, // 5 phút
   maxBackupAge: 7 * 24 * 60 * 60 * 1000, // 7 ngày
   maxBackupFiles: 100,

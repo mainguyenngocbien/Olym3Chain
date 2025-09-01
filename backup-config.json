@@ -1,6 +1,6 @@
 {
   "network": "localhost",
-  "chainId": 31337,
+  "chainId": 256000,
   "backupInterval": 300000,
   "maxBackupAge": 604800000,
   "maxBackupFiles": 100,

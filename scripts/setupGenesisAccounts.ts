@@ -583,7 +583,7 @@ async function main() {
 
   const config: GenesisConfig = {
     network: process.env.HARDHAT_NETWORK || "localhost",
-    chainId: process.env.HARDHAT_NETWORK === "localhost" ? 31337 : 256000,
+    chainId: 256000, // All networks now use Olym3 chain ID
     accounts: genesisAccounts,
     totalSupply: ethers.parseEther("10000000").toString(), // 10M total supply
     tokenName: "Olym3Chain Token",

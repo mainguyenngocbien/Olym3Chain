@@ -195,7 +195,7 @@ class TransactionBackupManager {
 // Main function
 async function main() {
   const network = process.env.HARDHAT_NETWORK || "localhost";
-  const chainId = network === "localhost" ? 31337 : 256000; // olym3Local chainId
+  const chainId = 256000; // All networks now use Olym3 chain ID
   
   const backupManager = new TransactionBackupManager(network, chainId);
   
