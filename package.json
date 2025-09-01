@@ -43,9 +43,12 @@
     "recovery:selective": "hardhat run scripts/networkRecovery.ts selective",
     "setup:backup": "hardhat run scripts/setupBackupSystem.ts",
     "setup:genesis": "hardhat run scripts/setupGenesisAccounts.ts",
+    "create:genesis-config": "hardhat run scripts/createGenesisConfig.ts",
     "deploy:genesis-token": "hardhat run scripts/deployGenesisToken.ts",
     "distribute:genesis-tokens": "hardhat run scripts/distributeGenesisTokens.ts",
-    "check:genesis-balances": "hardhat run scripts/checkGenesisBalances.ts"
+    "check:genesis-balances": "hardhat run scripts/checkGenesisBalances.ts",
+    "check:olym3-connection": "hardhat run scripts/checkOlym3Connection.ts",
+    "test:olym3-rpc": "npx ts-node scripts/testOlym3Rpc.ts"
   },
   "dependencies": {
     "@inquirer/password": "^4.0.2",

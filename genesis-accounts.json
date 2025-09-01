@@ -1,0 +1,31 @@
+{
+  "network": "Olym3Chain",
+  "chainId": 256000,
+  "createdAt": "2025-09-01T17:11:39.423Z",
+  "accounts": [
+    {
+      "name": "Genesis Account 1",
+      "address": "0x825d883684b86928ac2ae6fc3cfb41c2bac80162",
+      "balance": "1000000000000000000000000",
+      "privateKey": "0xc6186db0159b23714191ba8d0652aa431e24449dd4f10c72bf754598d15ae35e"
+    },
+    {
+      "name": "Genesis Account 2",
+      "address": "0x01d6a81d749a494d6b65e9d203db486599fb48cc",
+      "balance": "1000000000000000000000000",
+      "privateKey": "0xc3c49ddde69b72091bc11b0b432c9351e316996e12e04c63a3a912c0634da240"
+    },
+    {
+      "name": "Genesis Account 3",
+      "address": "0xb0b200294b4c55288e3943f482f49d130814546a",
+      "balance": "1000000000000000000000000",
+      "privateKey": "0x3bc1eeb5e7c33df709f10c30069b4ed8ea448279725713f00f243eb88ff7bc69"
+    },
+    {
+      "name": "Genesis Account 4",
+      "address": "0x4598fe91c98dd5ab6cfef9ca2195b8aecc2d48ee",
+      "balance": "1000000000000000000000000",
+      "privateKey": "0xc8c666beb904c42274ddae9efeb4657af89dce9e9b439f4c85b10c56cfca9fa4"
+    }
+  ]
+}

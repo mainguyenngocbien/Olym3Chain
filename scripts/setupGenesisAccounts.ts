@@ -68,8 +68,13 @@ class GenesisAccountSetup {
           throw new Error(`Invalid address format: ${account.address}`);
         }
         
+        // Fix private key format if needed
+        if (!account.privateKey.startsWith("0x")) {
+          account.privateKey = "0x" + account.privateKey;
+        }
+        
         // Validate private key format
-        if (!account.privateKey.startsWith("0x") || account.privateKey.length !== 66) {
+        if (account.privateKey.length !== 66) {
           throw new Error(`Invalid private key format: ${account.privateKey}`);
         }
         

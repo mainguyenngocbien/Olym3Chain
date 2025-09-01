@@ -55,7 +55,7 @@ const config: HardhatUserConfig = {
     },
     localhost: {
       url: "http://localhost:8545",
-      chainId: 31337,
+      chainId: 256000, // Updated to match Olym3 testnet
       accounts: [deployerPrivateKey],
       // Map localhost to olym3 domain
       gasPrice: 20000000000,
