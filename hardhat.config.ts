@@ -48,7 +48,7 @@ const config: HardhatUserConfig = {
     // View the networks that are pre-configured.
     // If the network you are looking for is not here you can add new network settings
     hardhat: {
-      chainId: 256000, // Updated to match Olym3 testnet
+      chainId: 256001, // Updated to match Olym3 testnet
       forking: {
         url: `https://eth-mainnet.alchemyapi.io/v2/${providerApiKey}`,
         enabled: process.env.MAINNET_FORKING_ENABLED === "true",
