@@ -1,0 +1,42 @@
+{
+  "network": "localhost",
+  "chainId": 31337,
+  "backupInterval": 300000,
+  "maxBackupAge": 604800000,
+  "maxBackupFiles": 100,
+  "enableAutoCleanup": true,
+  "logLevel": "info",
+  "backupSettings": {
+    "batchSize": 100,
+    "retryAttempts": 3,
+    "retryDelay": 5000,
+    "enableCompression": false,
+    "enableEncryption": false
+  },
+  "notificationSettings": {
+    "enableNotifications": false,
+    "webhookUrl": "",
+    "emailSettings": {
+      "enabled": false,
+      "smtpHost": "",
+      "smtpPort": 587,
+      "username": "",
+      "password": "",
+      "to": ""
+    }
+  },
+  "storageSettings": {
+    "localStorage": {
+      "enabled": true,
+      "path": "./backups"
+    },
+    "cloudStorage": {
+      "enabled": false,
+      "provider": "aws",
+      "bucket": "",
+      "region": "",
+      "accessKey": "",
+      "secretKey": ""
+    }
+  }
+}
