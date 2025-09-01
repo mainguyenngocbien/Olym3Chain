@@ -41,7 +41,11 @@
     "recovery:full": "hardhat run scripts/networkRecovery.ts full",
     "recovery:incremental": "hardhat run scripts/networkRecovery.ts incremental",
     "recovery:selective": "hardhat run scripts/networkRecovery.ts selective",
-    "setup:backup": "hardhat run scripts/setupBackupSystem.ts"
+    "setup:backup": "hardhat run scripts/setupBackupSystem.ts",
+    "setup:genesis": "hardhat run scripts/setupGenesisAccounts.ts",
+    "deploy:genesis-token": "hardhat run scripts/deployGenesisToken.ts",
+    "distribute:genesis-tokens": "hardhat run scripts/distributeGenesisTokens.ts",
+    "check:genesis-balances": "hardhat run scripts/checkGenesisBalances.ts"
   },
   "dependencies": {
     "@inquirer/password": "^4.0.2",
