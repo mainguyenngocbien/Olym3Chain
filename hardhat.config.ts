@@ -71,7 +71,7 @@ const config: HardhatUserConfig = {
     },
     olym3Testnet: {
       url: process.env.RPC_URL || "https://rpc1.olym3.xyz",
-      chainId: 256000,
+      chainId: 256001,
       accounts: [deployerPrivateKey],
     },
     mainnet: {
