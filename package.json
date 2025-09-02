@@ -6,7 +6,7 @@
     "account:generate": "hardhat run scripts/generateAccount.ts",
     "account:import": "hardhat run scripts/importAccount.ts",
     "account:reveal-pk": "hardhat run scripts/revealPK.ts",
-    "chain": "hardhat node --network hardhat --no-deploy",
+    "chain": "hardhat node --port 7545 --network hardhat --no-deploy",
     "chain:8081": "hardhat node --port 8081 --network hardhat --no-deploy",
     "chain:olym3-local": "hardhat node --network olym3Local --no-deploy",
     "setup:olym3-local": "hardhat run scripts/setupOlym3Local.ts",

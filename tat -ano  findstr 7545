@@ -1,0 +1,5 @@
+[33m7b096be[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Update hardhat.config.ts
+[33mc9d7a45[m Update hardhat.config.ts
+[33m53b8b7a[m Update hardhat.config.ts
+[33mac4ddf3[m Update hardhat.config.ts with chain ID 256000 configuration
+[33m6558cfb[m Update all configurations to use chain ID 256000 consistently across the entire project
